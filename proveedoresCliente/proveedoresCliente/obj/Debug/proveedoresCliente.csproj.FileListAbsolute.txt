@@ -21,3 +21,4 @@ C:\Users\pedro\source\repos\proveedoresProyecto\proveedoresCliente\proveedoresCl
 C:\Users\pedro\source\repos\proveedoresProyecto\proveedoresCliente\proveedoresCliente\obj\Debug\proveedoresCliente.exe
 C:\Users\pedro\source\repos\proveedoresProyecto\proveedoresCliente\proveedoresCliente\obj\Debug\proveedoresCliente.pdb
 C:\Users\pedro\source\repos\proveedoresProyecto\proveedoresCliente\proveedoresCliente\obj\Debug\proveedoresCliente.Proveedor.resources
+C:\Users\ELITEBOOK 8470p\source\samydub123\proveedoresProyecto\proveedoresCliente\proveedoresCliente\obj\Debug\proveedoresCliente.Proveedor.resources
