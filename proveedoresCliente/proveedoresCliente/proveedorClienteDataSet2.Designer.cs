@@ -201,7 +201,7 @@ namespace proveedoresCliente {
         private void InitClass() {
             this.DataSetName = "proveedorClienteDataSet";
             this.Prefix = "";
-            this.Namespace = "http://tempuri.org/proveedorClienteDataSet.xsd";
+            this.Namespace = "http://tempuri.org/proveedorClienteDataSet2.xsd";
             this.EnforceConstraints = true;
             this.SchemaSerializationMode = global::System.Data.SchemaSerializationMode.IncludeSchema;
             this.tablecliente = new clienteDataTable();

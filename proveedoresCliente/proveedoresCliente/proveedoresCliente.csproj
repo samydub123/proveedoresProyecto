@@ -84,11 +84,14 @@
     <Compile Include="Proveedor.Designer.cs">
       <DependentUpon>Proveedor.cs</DependentUpon>
     </Compile>
-    <Compile Include="proveedorClienteDataSet.Designer.cs">
+    <Compile Include="proveedorClienteDataSet2.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
-      <DependentUpon>proveedorClienteDataSet.xsd</DependentUpon>
+      <DependentUpon>proveedorClienteDataSet2.xsd</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Cliente.resx">
+      <DependentUpon>Cliente.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="MenuPrincipal.resx">
       <DependentUpon>MenuPrincipal.cs</DependentUpon>
     </EmbeddedResource>
@@ -101,9 +104,6 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Proveedor.resx">
-      <DependentUpon>Proveedor.cs</DependentUpon>
-    </EmbeddedResource>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -113,16 +113,16 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
-    <None Include="proveedorClienteDataSet.xsc">
-      <DependentUpon>proveedorClienteDataSet.xsd</DependentUpon>
+    <None Include="proveedorClienteDataSet2.xsc">
+      <DependentUpon>proveedorClienteDataSet2.xsd</DependentUpon>
     </None>
-    <None Include="proveedorClienteDataSet.xsd">
+    <None Include="proveedorClienteDataSet2.xsd">
       <Generator>MSDataSetGenerator</Generator>
-      <LastGenOutput>proveedorClienteDataSet.Designer.cs</LastGenOutput>
+      <LastGenOutput>proveedorClienteDataSet2.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
     </None>
-    <None Include="proveedorClienteDataSet.xss">
-      <DependentUpon>proveedorClienteDataSet.xsd</DependentUpon>
+    <None Include="proveedorClienteDataSet2.xss">
+      <DependentUpon>proveedorClienteDataSet2.xsd</DependentUpon>
     </None>
   </ItemGroup>
   <ItemGroup>
