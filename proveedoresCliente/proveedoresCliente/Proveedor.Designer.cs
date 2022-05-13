@@ -32,26 +32,26 @@
             System.Windows.Forms.DataGridViewCellStyle dataGridViewCellStyle1 = new System.Windows.Forms.DataGridViewCellStyle();
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Proveedor));
             this.groupBox1 = new System.Windows.Forms.GroupBox();
+            this.button2 = new System.Windows.Forms.Button();
+            this.button1 = new System.Windows.Forms.Button();
+            this.direccion = new System.Windows.Forms.TextBox();
+            this.telefono = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label3 = new System.Windows.Forms.Label();
             this.nombreProveedor = new System.Windows.Forms.TextBox();
             this.label2 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.telefono = new System.Windows.Forms.TextBox();
-            this.direccion = new System.Windows.Forms.TextBox();
-            this.button1 = new System.Windows.Forms.Button();
             this.dataGridView1 = new System.Windows.Forms.DataGridView();
-            this.proveedorClienteDataSet = new proveedoresCliente.proveedorClienteDataSet();
-            this.proveedorBindingSource = new System.Windows.Forms.BindingSource(this.components);
-            this.proveedorTableAdapter = new proveedoresCliente.proveedorClienteDataSetTableAdapters.proveedorTableAdapter();
             this.idProveedorDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.nombreProveedorDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.telefonoDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
             this.direccionDataGridViewTextBoxColumn = new System.Windows.Forms.DataGridViewTextBoxColumn();
-            this.button2 = new System.Windows.Forms.Button();
+            this.proveedorBindingSource = new System.Windows.Forms.BindingSource(this.components);
+            this.proveedorClienteDataSet = new proveedoresCliente.proveedorClienteDataSet();
+            this.proveedorTableAdapter = new proveedoresCliente.proveedorClienteDataSetTableAdapters.proveedorTableAdapter();
             this.groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.proveedorClienteDataSet)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.proveedorBindingSource)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.proveedorClienteDataSet)).BeginInit();
             this.SuspendLayout();
             // 
             // groupBox1
@@ -71,54 +71,14 @@
             this.groupBox1.TabStop = false;
             this.groupBox1.Enter += new System.EventHandler(this.groupBox1_Enter);
             // 
-            // nombreProveedor
+            // button2
             // 
-            this.nombreProveedor.Location = new System.Drawing.Point(162, 68);
-            this.nombreProveedor.Name = "nombreProveedor";
-            this.nombreProveedor.Size = new System.Drawing.Size(189, 20);
-            this.nombreProveedor.TabIndex = 3;
-            // 
-            // label2
-            // 
-            this.label2.AutoSize = true;
-            this.label2.Location = new System.Drawing.Point(26, 75);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(96, 13);
-            this.label2.TabIndex = 2;
-            this.label2.Text = "Nombre Proveedor";
-            this.label2.Click += new System.EventHandler(this.label2_Click);
-            // 
-            // label3
-            // 
-            this.label3.AutoSize = true;
-            this.label3.Location = new System.Drawing.Point(29, 110);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(49, 13);
-            this.label3.TabIndex = 4;
-            this.label3.Text = "Telefono";
-            // 
-            // label4
-            // 
-            this.label4.AutoSize = true;
-            this.label4.Location = new System.Drawing.Point(29, 146);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(52, 13);
-            this.label4.TabIndex = 5;
-            this.label4.Text = "Direccion";
-            // 
-            // telefono
-            // 
-            this.telefono.Location = new System.Drawing.Point(162, 102);
-            this.telefono.Name = "telefono";
-            this.telefono.Size = new System.Drawing.Size(189, 20);
-            this.telefono.TabIndex = 6;
-            // 
-            // direccion
-            // 
-            this.direccion.Location = new System.Drawing.Point(162, 143);
-            this.direccion.Name = "direccion";
-            this.direccion.Size = new System.Drawing.Size(189, 20);
-            this.direccion.TabIndex = 7;
+            this.button2.Location = new System.Drawing.Point(137, 207);
+            this.button2.Name = "button2";
+            this.button2.Size = new System.Drawing.Size(75, 23);
+            this.button2.TabIndex = 9;
+            this.button2.Text = "Eliminar";
+            this.button2.UseVisualStyleBackColor = true;
             // 
             // button1
             // 
@@ -129,6 +89,56 @@
             this.button1.Text = "Registrar";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
+            // direccion
+            // 
+            this.direccion.Location = new System.Drawing.Point(162, 143);
+            this.direccion.Name = "direccion";
+            this.direccion.Size = new System.Drawing.Size(189, 20);
+            this.direccion.TabIndex = 7;
+            // 
+            // telefono
+            // 
+            this.telefono.Location = new System.Drawing.Point(162, 102);
+            this.telefono.Name = "telefono";
+            this.telefono.Size = new System.Drawing.Size(189, 20);
+            this.telefono.TabIndex = 6;
+            // 
+            // label4
+            // 
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(29, 146);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(52, 13);
+            this.label4.TabIndex = 5;
+            this.label4.Text = "Direccion";
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Location = new System.Drawing.Point(29, 110);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(49, 13);
+            this.label3.TabIndex = 4;
+            this.label3.Text = "Telefono";
+            // 
+            // nombreProveedor
+            // 
+            this.nombreProveedor.Location = new System.Drawing.Point(162, 68);
+            this.nombreProveedor.Name = "nombreProveedor";
+            this.nombreProveedor.Size = new System.Drawing.Size(189, 20);
+            this.nombreProveedor.TabIndex = 3;
+            this.nombreProveedor.TextChanged += new System.EventHandler(this.nombreProveedor_TextChanged);
+            // 
+            // label2
+            // 
+            this.label2.AutoSize = true;
+            this.label2.Location = new System.Drawing.Point(26, 75);
+            this.label2.Name = "label2";
+            this.label2.Size = new System.Drawing.Size(96, 13);
+            this.label2.TabIndex = 2;
+            this.label2.Text = "Nombre Proveedor";
+            this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
             // dataGridView1
             // 
@@ -158,20 +168,6 @@
             this.dataGridView1.Size = new System.Drawing.Size(448, 161);
             this.dataGridView1.TabIndex = 1;
             // 
-            // proveedorClienteDataSet
-            // 
-            this.proveedorClienteDataSet.DataSetName = "proveedorClienteDataSet";
-            this.proveedorClienteDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
-            // 
-            // proveedorBindingSource
-            // 
-            this.proveedorBindingSource.DataMember = "proveedor";
-            this.proveedorBindingSource.DataSource = this.proveedorClienteDataSet;
-            // 
-            // proveedorTableAdapter
-            // 
-            this.proveedorTableAdapter.ClearBeforeFill = true;
-            // 
             // idProveedorDataGridViewTextBoxColumn
             // 
             this.idProveedorDataGridViewTextBoxColumn.DataPropertyName = "idProveedor";
@@ -197,14 +193,19 @@
             this.direccionDataGridViewTextBoxColumn.HeaderText = "direccion";
             this.direccionDataGridViewTextBoxColumn.Name = "direccionDataGridViewTextBoxColumn";
             // 
-            // button2
+            // proveedorBindingSource
             // 
-            this.button2.Location = new System.Drawing.Point(137, 207);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(75, 23);
-            this.button2.TabIndex = 9;
-            this.button2.Text = "Eliminar";
-            this.button2.UseVisualStyleBackColor = true;
+            this.proveedorBindingSource.DataMember = "proveedor";
+            this.proveedorBindingSource.DataSource = this.proveedorClienteDataSet;
+            // 
+            // proveedorClienteDataSet
+            // 
+            this.proveedorClienteDataSet.DataSetName = "proveedorClienteDataSet";
+            this.proveedorClienteDataSet.SchemaSerializationMode = System.Data.SchemaSerializationMode.IncludeSchema;
+            // 
+            // proveedorTableAdapter
+            // 
+            this.proveedorTableAdapter.ClearBeforeFill = true;
             // 
             // Proveedor
             // 
@@ -220,8 +221,8 @@
             this.groupBox1.ResumeLayout(false);
             this.groupBox1.PerformLayout();
             ((System.ComponentModel.ISupportInitialize)(this.dataGridView1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.proveedorClienteDataSet)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.proveedorBindingSource)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.proveedorClienteDataSet)).EndInit();
             this.ResumeLayout(false);
 
         }

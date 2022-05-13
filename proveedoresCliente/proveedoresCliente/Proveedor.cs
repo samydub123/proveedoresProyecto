@@ -155,5 +155,10 @@ namespace proveedoresCliente
         {
 
         }
+
+        private void nombreProveedor_TextChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }
