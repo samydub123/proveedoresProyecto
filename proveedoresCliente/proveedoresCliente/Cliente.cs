@@ -105,9 +105,14 @@ namespace proveedoresCliente
             //CargarDatos(indice);
         }
 
+        void recargarGrid()
+        {
+            this.clienteTableAdapter.Fill(this.proveedorClienteDataSet.cliente);
+        }
+
         private void dataGridView1_CellContentClick(object sender, DataGridViewCellEventArgs e)
         {
-
+            
         }
 
         private void label1_Click(object sender, EventArgs e)
@@ -136,7 +141,7 @@ namespace proveedoresCliente
             nombre.Text = "";
             telefono.Text = "";
             direccion.Text = "";
-
+            recargarGrid();
         }
 
         private void id_TextChanged(object sender, EventArgs e)
