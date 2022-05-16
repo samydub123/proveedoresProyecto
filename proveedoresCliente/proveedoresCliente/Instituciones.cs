@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace proveedoresCliente
 {
-    public partial class Factura : Form
+    public partial class Instituciones : Form
     {
-        public Factura()
+        public Instituciones()
         {
             InitializeComponent();
         }

@@ -46,23 +46,55 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
-    <Compile Include="Cliente.cs">
+    <Compile Include="Animales.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Cliente.Designer.cs">
-      <DependentUpon>Cliente.cs</DependentUpon>
+    <Compile Include="Animales.Designer.cs">
+      <DependentUpon>Animales.cs</DependentUpon>
     </Compile>
-    <Compile Include="Detalles_Factura.cs">
+    <Compile Include="consultaAnimales.cs" />
+    <Compile Include="consultaAnimales.Designer.cs">
+      <DependentUpon>consultaAnimales.cs</DependentUpon>
+    </Compile>
+    <Compile Include="consultaEcosistemas.cs" />
+    <Compile Include="consultaEcosistemas.Designer.cs">
+      <DependentUpon>consultaEcosistemas.cs</DependentUpon>
+    </Compile>
+    <Compile Include="consultaEmpleados.cs" />
+    <Compile Include="consultaEmpleados.Designer.cs">
+      <DependentUpon>consultaEmpleados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="consultaEventos.cs" />
+    <Compile Include="consultaEventos.Designer.cs">
+      <DependentUpon>consultaEventos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="consultaInstituciones.cs" />
+    <Compile Include="consultaInstituciones.Designer.cs">
+      <DependentUpon>consultaInstituciones.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Ecosistemas.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Detalles_Factura.Designer.cs">
-      <DependentUpon>Detalles_Factura.cs</DependentUpon>
+    <Compile Include="Ecosistemas.Designer.cs">
+      <DependentUpon>Ecosistemas.cs</DependentUpon>
     </Compile>
-    <Compile Include="Factura.cs">
+    <Compile Include="Empleados.cs">
       <SubType>Form</SubType>
     </Compile>
-    <Compile Include="Factura.Designer.cs">
-      <DependentUpon>Factura.cs</DependentUpon>
+    <Compile Include="Empleados.Designer.cs">
+      <DependentUpon>Empleados.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Eventos.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Eventos.Designer.cs">
+      <DependentUpon>Eventos.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Instituciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Instituciones.Designer.cs">
+      <DependentUpon>Instituciones.cs</DependentUpon>
     </Compile>
     <Compile Include="MenuPrincipal.cs">
       <SubType>Form</SubType>
@@ -70,40 +102,32 @@
     <Compile Include="MenuPrincipal.Designer.cs">
       <DependentUpon>MenuPrincipal.cs</DependentUpon>
     </Compile>
-    <Compile Include="Producto.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Producto.Designer.cs">
-      <DependentUpon>Producto.cs</DependentUpon>
-    </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
-    <Compile Include="Proveedor.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="Proveedor.Designer.cs">
-      <DependentUpon>Proveedor.cs</DependentUpon>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
     <Compile Include="proveedorClienteDataSet2.Designer.cs">
       <AutoGen>True</AutoGen>
       <DesignTime>True</DesignTime>
       <DependentUpon>proveedorClienteDataSet2.xsd</DependentUpon>
     </Compile>
-    <EmbeddedResource Include="Cliente.resx">
-      <DependentUpon>Cliente.cs</DependentUpon>
+    <EmbeddedResource Include="Empleados.resx">
+      <DependentUpon>Empleados.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Instituciones.resx">
+      <DependentUpon>Instituciones.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="MenuPrincipal.resx">
       <DependentUpon>MenuPrincipal.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-    </Compile>
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -127,6 +151,9 @@
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="Imagenes\animales.jpg" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>

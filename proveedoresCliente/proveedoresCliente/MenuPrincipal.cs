@@ -29,62 +29,72 @@ namespace proveedoresCliente
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Cliente  Cli= new Cliente();
-            Cli.Show();
+            Animales  animales= new Animales();
+            animales.Show();
+            this.Close();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
-            Proveedor Pro = new Proveedor();
-            Pro.Show();
+            Ecosistemas eco = new Ecosistemas();
+            eco.Show();
+            this.Close();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
-            Factura Facu = new Factura();
-            Facu.Show();
+            Eventos eventos = new Eventos();
+            eventos.Show();
+            this.Close();
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
-            Producto Produ = new Producto();
-            Produ.Show();
+            Empleados emp = new Empleados();
+            emp.Show();
+            this.Close();
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
-            Detalles_Factura DetaFacu= new Detalles_Factura();
-            DetaFacu.Show();
+            Instituciones inst= new Instituciones();
+            inst.Show();
+            this.Close();
         }
 
-        private void clientesToolStripMenuItem_Click(object sender, EventArgs e)
+        private void empleadosToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Cliente Cli = new Cliente();
-            Cli.Show();
+            Empleados emp = new Empleados();
+            emp.Show();
+            this.Close();
         }
 
-        private void proveedorToolStripMenuItem_Click(object sender, EventArgs e)
+        private void animalesToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Proveedor Pro = new Proveedor();
-            Pro.Show();
+            Animales animales = new Animales();
+            animales.Show();
+            this.Close();
         }
 
-        private void facturaToolStripMenuItem_Click(object sender, EventArgs e)
+        private void eventosToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Factura Facu = new Factura();
-            Facu.Show();
+            Eventos eventos = new Eventos();
+            eventos.Show();
+            this.Close();
         }
 
-        private void productoToolStripMenuItem_Click(object sender, EventArgs e)
+        private void institucionesToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Producto Produ = new Producto();
-            Produ.Show();
+            Instituciones inst = new Instituciones();
+            inst.Show();
+            this.Close();
         }
 
-        private void detallesFacturaToolStripMenuItem_Click(object sender, EventArgs e)
+        private void ecosistemasToolStripMenuItem_Click(object sender, EventArgs e)
         {
-            Detalles_Factura DetaFacu = new Detalles_Factura();
-            DetaFacu.Show();
+            Ecosistemas eco = new Ecosistemas();
+            eco.Show();
+            this.Close();
         }
     }
 }
