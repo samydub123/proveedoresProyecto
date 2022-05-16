@@ -29,72 +29,62 @@ namespace proveedoresCliente
 
         private void button1_Click(object sender, EventArgs e)
         {
-            Animales  animales= new Animales();
+            Animales animales = new Animales();
             animales.Show();
-            this.Close();
         }
 
         private void button2_Click(object sender, EventArgs e)
         {
             Ecosistemas eco = new Ecosistemas();
             eco.Show();
-            this.Close();
         }
 
         private void button3_Click(object sender, EventArgs e)
         {
             Eventos eventos = new Eventos();
             eventos.Show();
-            this.Close();
         }
 
         private void button4_Click(object sender, EventArgs e)
         {
             Empleados emp = new Empleados();
             emp.Show();
-            this.Close();
         }
 
         private void button5_Click(object sender, EventArgs e)
         {
-            Instituciones inst= new Instituciones();
+            Instituciones inst = new Instituciones();
             inst.Show();
-            this.Close();
         }
 
         private void empleadosToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Empleados emp = new Empleados();
             emp.Show();
-            this.Close();
         }
 
         private void animalesToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Animales animales = new Animales();
             animales.Show();
-            this.Close();
         }
 
         private void eventosToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Eventos eventos = new Eventos();
             eventos.Show();
-            this.Close();
         }
 
         private void institucionesToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Instituciones inst = new Instituciones();
             inst.Show();
-            this.Close();
         }
 
         private void ecosistemasToolStripMenuItem_Click(object sender, EventArgs e)
         {
             Ecosistemas eco = new Ecosistemas();
             eco.Show();
-            this.Close();
         }
     }
 }

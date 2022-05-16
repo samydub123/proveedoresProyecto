@@ -47,8 +47,6 @@ namespace proveedoresCliente
 
         private void linkLabel1_LinkClicked(object sender, LinkLabelLinkClickedEventArgs e)
         {
-            MenuPrincipal menu = new MenuPrincipal();
-            menu.Show();
             this.Close();
         }
     }

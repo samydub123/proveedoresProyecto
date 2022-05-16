@@ -22,3 +22,4 @@ C:\Users\wende\source\repos\proveedoresProyecto\proveedoresCliente\proveedoresCl
 C:\Users\wende\source\repos\proveedoresProyecto\proveedoresCliente\proveedoresCliente\bin\Debug\proveedoresCliente.pdb
 C:\Users\wende\source\repos\proveedoresProyecto\proveedoresCliente\proveedoresCliente\obj\Debug\proveedoresCliente.Properties.Resources.resources
 C:\Users\wende\source\repos\proveedoresProyecto\proveedoresCliente\proveedoresCliente\obj\Debug\proveedoresCliente.csproj.CoreCompileInputs.cache
+C:\Users\wende\source\repos\proveedoresProyecto\proveedoresCliente\proveedoresCliente\obj\Debug\proveedoresCliente.Instituciones.resources

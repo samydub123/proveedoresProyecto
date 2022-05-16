@@ -52,23 +52,33 @@
     <Compile Include="Animales.Designer.cs">
       <DependentUpon>Animales.cs</DependentUpon>
     </Compile>
-    <Compile Include="consultaAnimales.cs" />
+    <Compile Include="consultaAnimales.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="consultaAnimales.Designer.cs">
       <DependentUpon>consultaAnimales.cs</DependentUpon>
     </Compile>
-    <Compile Include="consultaEcosistemas.cs" />
+    <Compile Include="consultaEcosistemas.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="consultaEcosistemas.Designer.cs">
       <DependentUpon>consultaEcosistemas.cs</DependentUpon>
     </Compile>
-    <Compile Include="consultaEmpleados.cs" />
+    <Compile Include="consultaEmpleados.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="consultaEmpleados.Designer.cs">
       <DependentUpon>consultaEmpleados.cs</DependentUpon>
     </Compile>
-    <Compile Include="consultaEventos.cs" />
+    <Compile Include="consultaEventos.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="consultaEventos.Designer.cs">
       <DependentUpon>consultaEventos.cs</DependentUpon>
     </Compile>
-    <Compile Include="consultaInstituciones.cs" />
+    <Compile Include="consultaInstituciones.cs">
+      <SubType>Form</SubType>
+    </Compile>
     <Compile Include="consultaInstituciones.Designer.cs">
       <DependentUpon>consultaInstituciones.cs</DependentUpon>
     </Compile>

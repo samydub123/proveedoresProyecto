@@ -28,7 +28,6 @@
         /// </summary>
         private void InitializeComponent()
         {
-            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(MenuPrincipal));
             this.button1 = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
             this.button3 = new System.Windows.Forms.Button();
@@ -155,35 +154,35 @@
             // empleadosToolStripMenuItem
             // 
             this.empleadosToolStripMenuItem.Name = "empleadosToolStripMenuItem";
-            this.empleadosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.empleadosToolStripMenuItem.Size = new System.Drawing.Size(141, 22);
             this.empleadosToolStripMenuItem.Text = "Empleados";
             this.empleadosToolStripMenuItem.Click += new System.EventHandler(this.empleadosToolStripMenuItem_Click);
             // 
             // animalesToolStripMenuItem
             // 
             this.animalesToolStripMenuItem.Name = "animalesToolStripMenuItem";
-            this.animalesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.animalesToolStripMenuItem.Size = new System.Drawing.Size(141, 22);
             this.animalesToolStripMenuItem.Text = "Animales";
             this.animalesToolStripMenuItem.Click += new System.EventHandler(this.animalesToolStripMenuItem_Click);
             // 
             // eventosToolStripMenuItem
             // 
             this.eventosToolStripMenuItem.Name = "eventosToolStripMenuItem";
-            this.eventosToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.eventosToolStripMenuItem.Size = new System.Drawing.Size(141, 22);
             this.eventosToolStripMenuItem.Text = "Eventos";
             this.eventosToolStripMenuItem.Click += new System.EventHandler(this.eventosToolStripMenuItem_Click);
             // 
             // institucionesToolStripMenuItem
             // 
             this.institucionesToolStripMenuItem.Name = "institucionesToolStripMenuItem";
-            this.institucionesToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.institucionesToolStripMenuItem.Size = new System.Drawing.Size(141, 22);
             this.institucionesToolStripMenuItem.Text = "Instituciones";
             this.institucionesToolStripMenuItem.Click += new System.EventHandler(this.institucionesToolStripMenuItem_Click);
             // 
             // ecosistemasToolStripMenuItem
             // 
             this.ecosistemasToolStripMenuItem.Name = "ecosistemasToolStripMenuItem";
-            this.ecosistemasToolStripMenuItem.Size = new System.Drawing.Size(180, 22);
+            this.ecosistemasToolStripMenuItem.Size = new System.Drawing.Size(141, 22);
             this.ecosistemasToolStripMenuItem.Text = "Ecosistemas";
             this.ecosistemasToolStripMenuItem.Click += new System.EventHandler(this.ecosistemasToolStripMenuItem_Click);
             // 
@@ -192,7 +191,7 @@
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.Control;
-            this.BackgroundImage = ((System.Drawing.Image)(resources.GetObject("$this.BackgroundImage")));
+            this.BackgroundImage = global::proveedoresCliente.Properties.Resources.animales;
             this.BackgroundImageLayout = System.Windows.Forms.ImageLayout.Stretch;
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.label1);
